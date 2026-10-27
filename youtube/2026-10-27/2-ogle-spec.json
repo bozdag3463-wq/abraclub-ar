@@ -1,0 +1,22 @@
+{
+  "size": [1080, 1920],
+  "scenes": [
+    {"name": "KANCA",
+     "visual": {"type": "title", "lines": ["OCAK İÇİN", "2 isim · SÖYLENTİ"]},
+     "say": ["Transfer dönemi kapalı ama dört büyüklerin ocak için konuştuğu iki isim var.",
+             "Biri 21 yaşında, biri Napoli'nin yıldızı."]},
+    {"name": "1. İSİM",
+     "visual": {"type": "bignum", "num": "1", "lines": ["Matvey Kislyak", "21 yaş · CSKA Moskova", "Menajer: 4 büyükle temas"]},
+     "say": ["Birincisi Matvey Kislyak. CSKA Moskova'da oynuyor, 21 yaşında.",
+             "Menajeri açıkça söyledi: dört büyük kulüple temas halindeler.",
+             "Dikkat, temas teklif demek değil. Ama dördünün de kapıyı çalmış olması ilginç."]},
+    {"name": "2. İSİM",
+     "visual": {"type": "bignum", "num": "2", "lines": ["Zambo Anguissa", "Napoli · sözleşme sezon sonu bitiyor", "Türkiye ve Suudi Arabistan'dan ilgi"]},
+     "say": ["İkincisi Zambo Anguissa. Napoli'yle sözleşmesi sezon sonunda bitiyor.",
+             "Türkiye'den de Suudi Arabistan'dan da ilgilenen kulüpler olduğu yazılıyor.",
+             "Hangi kulüp? Henüz isim yok."]},
+    {"name": "KAPANIŞ",
+     "visual": {"type": "title", "lines": ["HANGİSİ GELSİN?", "Yoruma yaz"]},
+     "say": ["İkisi de şimdilik söylenti. Sence hangisi Türkiye'ye gelir, hangi takıma? Yoruma yaz."]}
+  ]
+}
