@@ -97,7 +97,7 @@ Maç görüntüsü, ajans fotoğrafı ve kulüp logosu yok.
 
 ## Video
 
-Hazır: `1-sabah-video/video.mp4` (sesli, altyazılı, ~2:22). Seslendirme metni:
+Hazır: `1-sabah-video/video.mp4` (sesli, kadın sesi, altyazılı, ~2:36). Seslendirme metni:
 `1-sabah-video/seslendirme.txt`. Ses ekleme adımları için `youtube/README.md`.
 
 ## Açıklama

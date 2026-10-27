@@ -18,12 +18,12 @@ Kamera yok, mikrofon da şart değil. Görüntüyü ve sesi Şerif (Claude) üre
 
 ## Video üretmek
 
-Seslendirme (çevrimdışı, sherpa-onnx 1.13.x ve Türkçe piper modeli "fahrettin"):
+Seslendirme (çevrimdışı, sherpa-onnx 1.13.x ve Türkçe piper modeli "dfki" (kadın sesi, varsayılan)):
 
     python -m venv tts && tts/bin/pip install "sherpa-onnx==1.13.8" soundfile
-    curl -LO https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-piper-tr_TR-fahrettin-medium.tar.bz2
-    tar xjf vits-piper-tr_TR-fahrettin-medium.tar.bz2
-    tts/bin/python youtube/tools/seslendir.py youtube/<tarih>/<n>-spec.json youtube/<tarih>/<n>-video vits-piper-tr_TR-fahrettin-medium
+    curl -LO https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-piper-tr_TR-dfki-medium.tar.bz2
+    tar xjf vits-piper-tr_TR-dfki-medium.tar.bz2
+    tts/bin/python youtube/tools/seslendir.py youtube/<tarih>/<n>-spec.json youtube/<tarih>/<n>-video vits-piper-tr_TR-dfki-medium
 
 Sonra video (ses varsa kare süreleri sese göre ayarlanır ve ses videoya eklenir):
 
