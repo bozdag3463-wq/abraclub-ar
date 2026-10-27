@@ -89,14 +89,16 @@ Senin 1 numaran hangisi? Yoruma yaz, yarın sabah en çok yazılanı videonun
 başında okuyorum.
 ```
 
-## Küçük resim tasarımı
+## Küçük resim
 
-- **Metin:** `GS 2-1 FB`. Beyaz, kalın siyah dış çizgi, sağ yarıyı kaplasın.
-- **İfade:** Senin yüzün, ağzı açık, kaşları kalkık ("bu ne ya"). Sol üçte bir, göğüsten yukarısı.
-- **Arka plan:** Çapraz ikiye bölünmüş, sol sarı-kırmızı, sağ lacivert-sarı, ikisi de koyu tonda.
-  Metnin arkasına hafif koyu gölge.
-- **Kullanma:** Maç görüntüsü, ajans fotoğrafı, kulüp logosu.
-- **Kontrol:** Telefonda %20 boyutta "2-1" okunuyor mu?
+Hazır: `1-sabah-video/kucuk-resim.png` (1280x720). Metin yalnızca `GS 2-1 FB`; başlıktaki kelimeleri
+tekrar etmiyor. Arka plan çapraz bölünmüş koyu kırmızı / koyu lacivert, ortada sarı çizgi.
+Maç görüntüsü, ajans fotoğrafı ve kulüp logosu yok.
+
+## Video
+
+Hazır: `1-sabah-video/video.mp4` (sessiz, altyazılı, ~2:10). Seslendirme metni:
+`1-sabah-video/seslendirme.txt`. Ses ekleme adımları için `youtube/README.md`.
 
 ## Açıklama
 

@@ -1,0 +1,24 @@
+{
+  "size": [1080, 1920],
+  "scenes": [
+    {"name": "KANCA",
+     "visual": {"type": "title", "lines": ["TAÇ KİMDE?", "Süper Lig · 9. hafta"]},
+     "say": ["Bu hafta Süper Lig'in lideri bir süreliğine Amedspor'du.", "Evet, Amedspor. Ve sonra derbi oynandı."]},
+    {"name": "ÖNCE",
+     "visual": {"type": "bignum", "num": "ÖNCE", "lines": ["Samsunspor 1-2 Amedspor", "Amedspor zirvede"]},
+     "say": ["Hafta sonu Amedspor Samsun'a gitti, 2-1 kazandı ve tablonun en üstüne çıktı.",
+             "9 maçta 6 galibiyet, 1 mağlubiyet. Kardeşim, bu şaka değil."]},
+    {"name": "SONRA",
+     "visual": {"type": "bignum", "num": "SONRA", "lines": ["Galatasaray 2-1 Fenerbahçe", "Osimhen: 2 gol"]},
+     "say": ["Sonra pazartesi geldi. Osimhen iki gol attı, Galatasaray derbiyi aldı ve taç geri gitti.",
+             "Amedspor şimdi 20 puanla ikinci."]},
+    {"name": "ESPRİ",
+     "visual": {"type": "table", "header": "PUAN DURUMU",
+                "rows": [[1, "Galatasaray", 22, false], [2, "Amedspor", 20, true], [3, "Trabzonspor", 19, false],
+                         [4, "Beşiktaş", 18, false], [5, "Fenerbahçe", 16, true]]},
+     "say": ["Ama asıl komik olan şu: Amedspor ikinci. Fenerbahçe? Beşinci.", "Amedspor'un 4 puan altında."]},
+    {"name": "KAPANIŞ",
+     "visual": {"type": "title", "lines": ["KAÇINCI BİTİRİR?", "Yoruma sıra numarası yaz"]},
+     "say": ["Sence Amedspor sezonu kaçıncı bitirir? Yoruma sıra numarası yaz."]}
+  ]
+}
