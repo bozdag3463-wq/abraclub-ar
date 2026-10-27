@@ -105,6 +105,10 @@ def main():
     frames = os.path.join(out, "kareler")
     os.makedirs(frames, exist_ok=True)
     W, H = spec.get("size", [1920, 1080])
+    ses = os.path.join(out, "ses")
+    dpath = os.path.join(ses, "durations.json")
+    voiced = os.path.exists(dpath)  # seslendir.py çalıştıysa süreler sesten gelir
+    durations = json.load(open(dpath)) if voiced else None
     concat, narration, n, total = [], [], 0, 0.0
     for scene in spec["scenes"]:
         narration.append(f'[{scene["name"]}]\n' + " ".join(scene["say"]) + "\n")
@@ -115,17 +119,24 @@ def main():
             subtitle(d, sentence, W, H)
             path = os.path.join(frames, f"{n:03d}.png")
             img.save(path)
-            dur = max(1.8, len(sentence.split()) / WPS)
+            dur = durations[n] if voiced else max(1.8, len(sentence.split()) / WPS)
             concat.append(f"file '{os.path.abspath(path)}'\nduration {dur:.2f}")
             n += 1; total += dur
     concat.append(f"file '{os.path.abspath(path)}'")  # ffmpeg concat: son kare tekrar
     lst = os.path.join(out, "concat.txt")
     open(lst, "w").write("\n".join(concat) + "\n")
     open(os.path.join(out, "seslendirme.txt"), "w").write("\n".join(narration))
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst,
-                    "-vf", "fps=30,format=yuv420p", "-c:v", "libx264", "-preset", "medium",
-                    "-crf", "23", os.path.join(out, "video.mp4")], check=True)
-    print(f"{n} kare, {total:.0f} sn -> {os.path.join(out, 'video.mp4')}")
+    cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst]
+    if voiced:
+        alst = os.path.join(out, "concat-ses.txt")
+        open(alst, "w").write("".join(f"file '{os.path.abspath(os.path.join(ses, f'{i:03d}.wav'))}'\n"
+                                      for i in range(n)))
+        cmd += ["-f", "concat", "-safe", "0", "-i", alst, "-af", "loudnorm=I=-16:TP=-1.5",
+                "-c:a", "aac", "-b:a", "160k", "-shortest"]
+    cmd += ["-vf", "fps=30,format=yuv420p", "-c:v", "libx264", "-preset", "medium", "-crf", "23",
+            os.path.join(out, "video.mp4")]
+    subprocess.run(cmd, check=True)
+    print(f"{n} kare, {total:.0f} sn, {'sesli' if voiced else 'sessiz'} -> {os.path.join(out, 'video.mp4')}")
 
 if __name__ == "__main__":
     main()

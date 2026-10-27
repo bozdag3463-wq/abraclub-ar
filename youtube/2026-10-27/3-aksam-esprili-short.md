@@ -50,6 +50,8 @@ Koyu arka plan, beyaz kalın metin.
 Amedspor Samsunspor'u 2-1 yenip Süper Lig'in lideri oldu. Sonra Galatasaray derbiyi kazandı ve zirveyi geri aldı. Puan durumu: GS 22, Amedspor 20, Trabzonspor 19, Beşiktaş 18, Fenerbahçe 16.
 
 #shorts #amedspor #süperlig #galatasaray #fenerbahçe #puandurumu
+
+Seslendirme yapay zekâ ile yapılmıştır.
 ```
 
 ## Kaçınılacaklar

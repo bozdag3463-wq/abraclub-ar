@@ -97,7 +97,7 @@ Maç görüntüsü, ajans fotoğrafı ve kulüp logosu yok.
 
 ## Video
 
-Hazır: `1-sabah-video/video.mp4` (sessiz, altyazılı, ~2:10). Seslendirme metni:
+Hazır: `1-sabah-video/video.mp4` (sesli, altyazılı, ~2:22). Seslendirme metni:
 `1-sabah-video/seslendirme.txt`. Ses ekleme adımları için `youtube/README.md`.
 
 ## Açıklama
@@ -129,6 +129,8 @@ Premier Lig, Serie A ve Bundesliga'da pazartesi maç yoktu.
 02:00 1. Osimhen'in 15 dakikası
 
 Senin 1 numaran hangisi? Yorumlara yaz, yarın sabahki videoda en çok yazılanı okuyorum.
+
+Seslendirme yapay zekâ ile yapılmıştır.
 ```
 
 Bölüm zaman damgaları senaryodaki tahmini sürelere göre. Kurgudan sonra gerçek sürelere göre düzelt.

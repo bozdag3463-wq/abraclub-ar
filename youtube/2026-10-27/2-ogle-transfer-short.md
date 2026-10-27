@@ -44,6 +44,8 @@ Yüzün sol tarafta, düşünceli ifade. Koyu arka plan.
 Transfer dönemi kapalı ama ocak için konuşulan iki isim var: Matvey Kislyak (CSKA Moskova, 21) ve Zambo Anguissa (Napoli). İkisi de şimdilik söylenti.
 
 #shorts #transfer #galatasaray #fenerbahçe #beşiktaş #trabzonspor
+
+Seslendirme yapay zekâ ile yapılmıştır.
 ```
 
 ## Kaynak notu
