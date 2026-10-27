@@ -1,2 +1,5 @@
 youtube/**/kareler/
 youtube/**/concat.txt
+youtube/**/concat-ses.txt
+youtube/**/ses/
+__pycache__/
