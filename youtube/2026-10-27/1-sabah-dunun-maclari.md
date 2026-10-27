@@ -121,19 +121,20 @@ Sevilla 2-0 Osasuna
 Premier Lig, Serie A ve Bundesliga'da pazartesi maç yoktu.
 
 00:00 Dünün 5 anı
-00:15 30 saniyede tüm skorlar
-00:40 5. Sevilla
-00:50 4. PSG'nin yedekleri
-01:15 3. Rize-Trabzon: 7 gol
-01:45 2. İrfan Can'ın röveşatası
-02:00 1. Osimhen'in 15 dakikası
+00:18 Tüm skorlar
+00:44 5. Sevilla
+00:54 4. PSG'nin yedekleri
+01:17 3. Rize-Trabzon: 7 gol
+01:44 2. İrfan Can'ın röveşatası
+01:59 1. Osimhen'in 15 dakikası
+02:15 Puan durumu
 
 Senin 1 numaran hangisi? Yorumlara yaz, yarın sabahki videoda en çok yazılanı okuyorum.
 
 Seslendirme yapay zekâ ile yapılmıştır.
 ```
 
-Bölüm zaman damgaları senaryodaki tahmini sürelere göre. Kurgudan sonra gerçek sürelere göre düzelt.
+Bölüm zaman damgaları kadın sesli videonun gerçek sürelerine göre.
 
 ## Etiketler
 
